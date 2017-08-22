@@ -8,7 +8,6 @@
 			</div>
 			<input type="number" id="baconNumParagraphs" name="baconNumParagraphs" class="form-control" required min="0" max="9" step="1" [(ngModel)]="numParagraphs" #baconNumParagraphs="ngModel" (change)="getBacon();" />
 		</div>
-
 		<!-- button -->
 		<br>
 		<div ng-controller="myController">
